@@ -4,6 +4,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
 import android.media.ExifInterface;
+import android.util.Log;
 
 import java.io.IOException;
 
@@ -15,7 +16,10 @@ public class BitmapUtil {
 
     public static Bitmap getScaleBitmap(String fileResult, int height, int width) {
         Bitmap bitmap;
-
+//ceshi
+        if (false){
+            Log.i("aa","aa");
+        }
         if (fileResult == null) {
             return null;
         } else {
